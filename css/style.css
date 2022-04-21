@@ -1,0 +1,173 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ol,
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+ }
+.container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common Css End */
+
+nav{
+    background-color: #131e29;
+}
+
+nav .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 20%;
+}
+
+nav .logo img{
+    display: block;
+}
+
+nav .menu{
+    width: 80%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav .menu ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+    padding: 40px 18.5px;
+    transition: all .5s linear;
+}
+
+nav .menu ul li a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+nav .menu ul li:nth-child(1) a{
+    color: #4bcaff;
+    font-weight: 700;
+}
+/* Banner Section Css Start */
+#banner{
+    height: 695px;
+    background-image: url(../img/Banner_bg.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+#banner .container{
+    height: 100%;
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+}
+
+#banner .banner_content{
+    width: 60%;
+    margin-left: auto;
+    color: #ffffff;
+}
+
+#banner .banner_image{
+    width: 38%;
+    position: absolute;
+    left: 0;
+    bottom: -95px;
+}
+
+#banner .banner_content h1{
+    font-weight: 300;
+    font-size: 48px;
+}
+
+#banner .banner_content h1 span{
+    font-weight: 700;
+}
+#banner .banner_content p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 34px 0 44px 0;
+}
+
+#banner .banner_btn a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 25px 51px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all .5s linear;
+}
+
+#banner .banner_btn a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+
+#banner .banner_app_btn p{
+    margin-right: 22px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#banner .banner_app_btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 48px 0 43px 0;
+}
+
+#banner .banner_app_btn a{
+    width: 50px;
+    height: 50px;
+    background-color: #131e29;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #4bcaff;
+    margin-right: 19px;
+    display: inline-block;
+    transition: all .5s linear;
+}
+
+#banner .banner_app_btn a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+/* Bannner Section Css End */
